@@ -1,6 +1,6 @@
 # traj2seg-v2
 이 repo는 https://github.com/jsm9720/traj2seg 의 매칭 오류들을 개선 하였다.  
-매칭 변경을 판단할 때 including, heading과 distance만 비교하면 궤적 포인트의  주기가 큰 궤적일 경우 서로 연결된 링크사이에 링크 변경시 매칭 오류가 발생한다. 이를 해결하기 위해 매칭 변경시에 링크 끝지점과의 계산을 수행하는 과정을 추가하였다.
+매칭 변경을 판단할 때 including, heading과 distance만 비교하면 궤적 포인트의  주기가 큰 궤적일 경우 서로 연결된 링크사이에 링크 변경시 매칭 오류가 발생한다. 이를 해결하기 위해 매칭 변경시에 링크 끝지점과의 계산을 수행하는 과정을 추가하였다.  
 ![check](img/check_point_and_link.png)
 ![state](img/state_manger.png)
 
